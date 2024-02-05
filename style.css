@@ -1,0 +1,31 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.circle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:200px;
+    width:200px;
+    background-color:slateblue;
+    border-radius:100%;
+    font-size:1.5rem;
+    cursor:pointer;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:white;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+.hover{
+    transform:scale(2);
+}
